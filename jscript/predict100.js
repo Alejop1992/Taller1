@@ -71,7 +71,7 @@ $("#predict-button").click(async function () {
   	image.height = 450;
 
 	let tensor = tf.fromPixels(image)
-	.resizeNearestNeighbor([224,224])
+	.resizeNearestNeighbor([299,299])
 	.toFloat();
 	
 	
