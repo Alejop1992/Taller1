@@ -234,9 +234,9 @@
         $(".progress-bar").hide();
 
         // Cargar características del modelo
-        $("#model-features li").eq(0).text("Exactitud: " + MODEL_FEATURES.accuracy.toFixed(2));
-        $("#model-features li").eq(1).text("Precisión: " + MODEL_FEATURES.precision.toFixed(2));
-        $("#model-features li").eq(2).text("Sensibilidad: " + MODEL_FEATURES.sensitivity.toFixed(2));
+        $("#model-features li").eq(0).text("Exactitud: 0.87 " + MODEL_FEATURES.accuracy.toFixed(2));
+        $("#model-features li").eq(1).text("Precisión: 0.97 " + MODEL_FEATURES.precision.toFixed(2));
+        $("#model-features li").eq(2).text("Sensibilidad: 0.98 " + MODEL_FEATURES.sensitivity.toFixed(2));
 
         // Simular un clic en el botón de predicción
         predictOnLoad();
